@@ -13,7 +13,7 @@ PHP Slack
     * **Response** is in charge of providing a simple Http response wrapper for holding the body, headers and status code.
     * **ResponseFactory** is in charge of providing a factory to instantiate and build the **Response**.
 
-To use this package, it's simple. Though _please note_ that this implementation is very lightweight meaning you'll need to do some more work than usual. This package doesn't provide methods such as `Chat::postMessage(string message)`, it literally provides one method (`Commander::execute(string command, array parameters = [])`).
+To use this package, it's simple. Though _please note_ that this implementation is very lightweight meaning you'll need to do some more work than usual. This package doesn't provide methods such as `Chat::postMessage(string message)`, it literally provides one method (`Commander::execute(string command, array parameters = array())`).
 
 Here is a very simple example of using this package:
 ```php
